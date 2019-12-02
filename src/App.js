@@ -1,26 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App">
+        <div className="Header">Header</div>
+        <div className="Timeline">
+          <TimelineItem name="2008" />
+          <div className="TimelineContent">
+            Test
+          </div>
+          <div className="TimelineItem">
+            <TimelineItem name="IMF" />
+          </div>
+        </div>
+      </div>
   );
+}
+
+// write a functional component that takes properties
+// of your 'news item' 
+
+
+function TimelineItem(props) {
+  return(
+      <div className="TimelineItem">
+          <button className="round-button">{props.name}</button>
+      </div>
+  )
 }
 
 export default App;
