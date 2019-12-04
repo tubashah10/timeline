@@ -7,32 +7,40 @@
   align-items: flex-start;
   justify-content: flex-start;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #282c34;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .Header {
   flex-direction: row;
+  text-align: center;
   width: 100vw;
-  height: 10vh;
-  background-color: tomato;
+  height: 20vh;
+  background-color: wheat;
+  font-size: 5vw; 
+  text-align: center;
+  vertical-align: middle;
+  line-height: 20vh;
 }
 
 .Timeline {
-  padding: 2em;
+  margin: 3em;
 
 }
 
 .TimelineContent {
-  background-color: teal;
+  background-color:lightcoral;
 }
 
 .TimelineItem {
+  flex-direction: columnn;
   padding-top: 1em;
+  padding-block-end: 10vw;
 }
 
-.round-button{
-  min-width: 15vw;
-  max-width: 15vw;
+.major-years button,.minor-years button{
+  min-width: 7vw;
+  max-width: 7vw;
   text-decoration: none;
   display: inline-block;
   outline: none;
@@ -46,7 +54,31 @@
   text-align: center;
   padding:0;
 }
-.round-button:before {
+
+.imf button{
+  min-width: 4vw;
+  max-width: 4vw;
+  text-decoration: none;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  border-style: none;
+  color: white;
+  font-size: 1em;
+  background-color: lightsalmon;
+  overflow: none;
+  text-align: center;
+  padding:0;
+}
+
+.imf button:before {
+  content:'';
+  display:inline-block;;
+  vertical-align:middle;
+  padding-top:100%; 
+}
+
+.major-years button:before,.minor-years button:before {
   content:'';
   display:inline-block;;
   vertical-align:middle;
@@ -60,3 +92,132 @@ span {
 .round-button:active{
   background-color: #2980b9;
 }
+
+
+.minor-years button {
+  min-width: 4vw;
+  max-width: 4vw; 
+  font-size: 0.5em
+}
+
+.infobox {
+  color: white;
+  width: 20vw;
+  height: 40vh;
+  background-color: grey;
+  position: absolute;
+  top: 0;
+  left: 150%;
+  border: 2px solid black;
+}
+
+
+/* .bubble {
+  position: relative;
+  padding: 20px;
+  display: block;
+  border-radius: 3px;
+  margin-left: 20px;
+
+}
+
+.bubble:after {
+  content: "";
+  display: block;
+  position: absolute;
+
+  left: -50px;
+  
+  width: 0; 
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 50px pink;
+} */
+
+
+
+/* 
+.inbox.bubble {
+	position: relative;
+	background: #00aabb;
+	border-radius: .4em;
+}
+
+.infobox.bubble:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-bottom-color: #00aabb;
+	border-top: 0;
+	border-left: 0;
+	margin-left: -10px;
+	margin-top: -20px;
+} */
+
+
+
+.more{
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  bottom: 0px;
+  /* left: 30%; */
+  left: 0;
+}
+
+.majoryearbox {
+  position: relative;
+  height: 50vh;
+}
+
+.majoryearbox2 {
+  position: relative;
+  height: 30vh;
+}
+
+.majoryearbox3 {
+  position: relative;
+  height: 15vh;
+}
+
+.infobox2 {
+  color: white;
+  width: 35vw;
+  height: 40vh;
+  background-color: grey;
+  position: absolute;
+  top: 0;
+  left: 300%;
+  border: 2px solid black;
+}
+
+.infobox3 {
+  color: white;
+  width: 62vw;
+  height: 25vh;
+  background-color: grey;
+  position: absolute;
+  top: 0;
+  left: 150%;
+  border: 2px solid black;
+}
+
+.infobox4 {
+  color: white;
+  width: 62vw;
+  height: 15vh;
+  background-color: grey;
+  position: absolute;
+  top: 0;
+  left: 150%;
+  border: 2px solid black;
+}
+
+
+
+
