@@ -13,7 +13,7 @@ function App() {
 
             <TimelineItem name="2008" className="major-years" />
             <Box>
-            <img src="https://d3fy651gv2fhd3.cloudfront.net/charts/pakistan-inflation-cpi.png?s=pacpgeny&v=201911070308V20191105&d1=20080104&d2=20081204" width="100%" height="65%"/>
+            <img src="https://d3fy651gv2fhd3.cloudfront.net/charts/pakistan-inflation-cpi.png?s=pacpgeny&v=201911070308V20191105&d1=20080104&d2=20081204" width="90%" height="60%"/>
 
             </Box>
             
@@ -26,7 +26,7 @@ function App() {
             Inflation was the highest in 2008 
           </div> */}
           <div className ="majoryearbox2">
-            <Box3>
+            <Box3>itsa
             <p> Pakistan Gets $7.6 Billion Loan from IMF </p>
                </Box3>
             
