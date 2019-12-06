@@ -3,90 +3,90 @@ import './App.css';
 
 function App() {
   return (
-      <div className="App">
-        <div className="Header">PAKISTAN - Macroeconomic Cycles</div>
-        <div className="Timeline">
-          <div className="majoryearbox">
-          <Box2>
-            <iframe width="380" height="215" src="https://www.youtube.com/embed/KazyltuEWcY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </Box2>
+<div className="App">
+<div className="Header">PAKISTAN - Macroeconomic Cycles</div>
+<div className="Timeline">
+<div className="majoryearbox">
+  {/* <Box2>
+  <iframe width="380" height="215" src="https://www.youtube.com/embed/KazyltuEWcY" iframe/>
+  </Box2> */}
 
-            <TimelineItem name="2008" className="major-years" />
-            <Box>
-            <img src="https://d3fy651gv2fhd3.cloudfront.net/charts/pakistan-inflation-cpi.png?s=pacpgeny&v=201911070308V20191105&d1=20080104&d2=20081204" width="90%" height="60%"/>
+  <TimelineItem name="2008" className="major-years" />
+  {/* <Box>
+  <img src="https://d3fy651gv2fhd3.cloudfront.net/charts/pakistan-inflation-cpi.png?s=pacpgeny&v=201911070308V20191105&d1=20080104&d2=20081204" width="90%" height="60%"/>
 
-            </Box>
+  </Box> */}
             
             
            
           
         
-          </div>
-         {/* <div className="TimelineContent">
+    </div>
+    {/* <div className="TimelineContent">
             Inflation was the highest in 2008 
-          </div> */}
-          <div className ="majoryearbox2">
-            <Box3>itsa
+    </div> */}
+          <div className ="majoryearbox">
+            {/* <Box3>itsa
             <p> Pakistan Gets $7.6 Billion Loan from IMF </p>
-               </Box3>
+               </Box3> */}
             
             <TimelineItem name="IMF" className="imf"/>
             </div>
-            <div className="majoryearbox3">
-              <Box4 />
+            <div className="majoryearbox">
+              {/* <Box4 /> */}
             <TimelineItem name="2009" className="minor-years"/>
             </div>
-            <div className="majoryearbox3">
-              <Box4 />
+            <div className="majoryearbox">
+              {/* <Box4 /> */}
             <TimelineItem name="2010" className="minor-years"/>
             </div>
-            <div className="majoryearbox3">
-              <Box4 />
+            <div className="majoryearbox">
+              {/* <Box4 /> */}
             <TimelineItem name="2011" className="minor-years"/>
             </div>
-            <div className="majoryearbox3">
-              <Box4 />
+            <div className="majoryearbox">
+              {/* <Box4 /> */}
             <TimelineItem name="2012" className="minor-years"/>
             </div>
             <div className="majoryearbox">
-          <Box2 />
+          {/* <Box2 /> */}
             <TimelineItem name="2013" className="major-years" /> 
-            <Box />
+            {/* <Box /> */}
         
 
         
           </div>
           <div className ="majoryearbox2">
-            <Box3 />
+            {/* <Box3 /> */}
             <TimelineItem name="IMF" className="imf"/>
             </div>
             <div className="majoryearbox3">
-              <Box4 />
+              {/* <Box4 /> */}
             <TimelineItem name="2014" className="minor-years"/>
             </div>
             <div className="majoryearbox3">
-              <Box4 />
+              {/* <Box4 /> */}
             <TimelineItem name="2015" className="minor-years"/>
             </div>
             <div className="majoryearbox3">
-              <Box4 />
+              {/* <Box4 /> */}
             <TimelineItem name="2016" className="minor-years"/>
             </div>
             <div className="majoryearbox3">
-              <Box4 />
+              {/* <Box4 /> */}
             <TimelineItem name="2017" className="minor-years"/>
             </div>
             <div className="majoryearbox">
-          <Box2 />
+          {/* <Box2 /> */}
             <TimelineItem name="2018" className="major-years" /> 
-            <Box />
+            {/* <Box /> */}
           </div>
           <div className="majoryearbox3">
-              <Box4 />
+              {/* <Box4 /> */}
             <TimelineItem name="2019" className="minor-years"/>
             </div>
           <div className ="majoryearbox2">
-            <Box3 />
+            {/* <Box3 /> */}
             <TimelineItem name="IMF" className="imf"/>
             </div>
 

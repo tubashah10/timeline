@@ -1,14 +1,59 @@
 .App {
-  text-align: center;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #282c34;
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Card {
+  min-width: 250px;
+  max-width: 350px;
+  margin: 1em;
+}
+
+.Bullet {
+  display: inline-block;
+  margin: 0 2px;
+  transform: scale(0.8);
+}
+
+.MuiFab-root.majoryearbox{
+  margin: auto;
+  background-color: #349beb;
+  width: 50px;
+  height: 50px;
+
+}
+
+.MuiFab-root.majoryearbox2{
+  margin: auto;
+  background-color: #349beb;
+  width: 80px;
+  height: 80px;
+
+}
+
+.MuiFab-root.imfbutton{
+  margin: auto;
+  background-color:lightsalmon;
+  border-radius: 0;
+}
+
+.Title {
+  font-size: 14;
+}
+
+.Pos {
+  margin-bottom: 12;
+}
+
+.Media {
+  height: 150px;
+  margin: 1em;
 }
 
 .Header {
@@ -17,16 +62,22 @@
   width: 100vw;
   height: 20vh;
   background-color: wheat;
-  font-size: 5vw; 
+  font-size: 4vw; 
   text-align: center;
   vertical-align: middle;
   line-height: 20vh;
+
 }
 
 .Timeline {
-  margin: 3em;
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  align-content: center;
 
 }
+
+
 
 .TimelineContent {
   background-color:lightcoral;
@@ -36,6 +87,7 @@
   flex-direction: columnn;
   padding-top: 1em;
   padding-block-end: 10vw;
+  align-content: center;
 }
 
 .major-years button,.minor-years button{
@@ -53,6 +105,7 @@
   overflow: none;
   text-align: center;
   padding:0;
+  margin: auto;
 }
 
 .imf button{
@@ -84,6 +137,8 @@
   vertical-align:middle;
   padding-top:100%;
 }
+
+
 span {
   display:inline-block;
   vertical-align:middle;
@@ -107,7 +162,7 @@ span {
   background-color: grey;
   position: absolute;
   top: 0;
-  left: 150%;
+  /* left: 150%; */
   border: 2px solid black;
 }
 
@@ -170,12 +225,21 @@ span {
   left: 0;
 }
 
+.majoryearbox2 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  height: 30vh;
+}
+
 .majoryearbox {
-  position: relative;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
   height: 50vh;
 }
 
-.majoryearbox2 {
+/* .majoryearbox2 {
   position: relative;
   height: 30vh;
 }
@@ -183,7 +247,7 @@ span {
 .majoryearbox3 {
   position: relative;
   height: 15vh;
-}
+} */
 
 .infobox2 {
   color: white;
@@ -192,9 +256,10 @@ span {
   background-color: grey;
   position: absolute;
   top: 0;
-  left: 300%;
+  /* left: 300%; */
   border: 2px solid black;
 }
+
 
 .infobox3 {
   color: white;
@@ -203,7 +268,7 @@ span {
   background-color: grey;
   position: absolute;
   top: 0;
-  left: 150%;
+  /* left: 150%; */
   border: 2px solid black;
 }
 
@@ -214,8 +279,13 @@ span {
   background-color: grey;
   position: absolute;
   top: 0;
-  left: 150%;
+  /* left: 150%; */
   border: 2px solid black;
+}
+
+.button2 {
+  align-content: center;
+  justify-content: center;
 }
 
 
