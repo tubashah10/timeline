@@ -58,19 +58,18 @@ export default function Home() {
           </div>
 
           <div className="key1">
+          <Fab className="majoryearbox"> </Fab>
+          <p> Minor Year Box </p>
+
+          </div>
+
+          <div className="key1">
           <Fab className="imfbutton"> </Fab>
 
           
           <p> IMF Bailout Packages </p>
 
           </div>
-
-          <div className="key1">
-          <Fab className="majoryearbox"> </Fab>
-          <p> Minor Year Box </p>
-
-          </div>
-
 
 
 
