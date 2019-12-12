@@ -41,7 +41,7 @@ export default function Home() {
           <div className="textbox">
           <p className="headercontent">The past 10 years have
           brought about a significant decline in growth rates and in more recent
-          seven years, it has lagged behind other South Asian countries. A combination of
+          seven years, Pakistan has lagged behind other South Asian countries. A combination of
           political instability and disruption of evolving democratic process, lack of continuity
           in policies and poor governance have contributed to this outcome. </p>
           </div>
